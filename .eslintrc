@@ -8,6 +8,7 @@
   "parserOptions": { "requireConfigFile": false },
   "babelOptions": { "configFile": "./.babelrc" },
   "rules": {
+    "no-console": [0],
     "no-plusplus": [0],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "react/prop-types": [0],
