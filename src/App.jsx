@@ -14,6 +14,10 @@ function App() {
         <Starred />
       </Route>
 
+      <Route exact path="/show/:id">
+        <Show />
+      </Route>
+
       <Route>
         <div>Not found</div>
       </Route>

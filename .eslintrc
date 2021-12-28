@@ -5,8 +5,7 @@
     "browser": true
   },
   "parser": "@babel/eslint-parser",
-  "parserOptions": { "requireConfigFile": false },
-  "babelOptions": { "configFile": "./.babelrc" },
+
   "rules": {
     "no-console": [0],
     "no-plusplus": [0],
