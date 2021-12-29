@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ARK2K.github.io/box-office/static/css/main.b2586571.css",
+    "main.js": "/ARK2K.github.io/box-office/static/js/main.5a21324a.js",
+    "index.html": "/ARK2K.github.io/box-office/index.html",
+    "main.b2586571.css.map": "/ARK2K.github.io/box-office/static/css/main.b2586571.css.map",
+    "main.5a21324a.js.map": "/ARK2K.github.io/box-office/static/js/main.5a21324a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2586571.css",
+    "static/js/main.5a21324a.js"
+  ]
+}
