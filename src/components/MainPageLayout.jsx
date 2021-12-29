@@ -1,3 +1,4 @@
+/* eslint-disable import/no-named-as-default-member */
 import React from 'react';
 import Navs from './Navs';
 import Title from './Title';
