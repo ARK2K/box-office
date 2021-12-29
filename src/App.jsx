@@ -17,7 +17,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Routes>
-        <Route exact path="box-office/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
 
         <Route exact path="/starred" element={<Starred />} />
 
