@@ -17,13 +17,13 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="box-office/" element={<Home />} />
 
         <Route exact path="/starred" element={<Starred />} />
 
-        <Route exact path="/show/:id" element={<Show />} />
+        <Route exact path="/show:id" element={<Show />} />
 
-        <Route element={<div>Not found</div>} />
+        <Route path="*" element={<div>Not found</div>} />
       </Routes>
     </ThemeProvider>
   );
