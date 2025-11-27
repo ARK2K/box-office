@@ -1,9 +1,24 @@
 {
   "name": "box-office",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": "Ankur Kushwaha <ankurravindrakushwaha@gmail.com>",
+  "license": "MIT",
   "type": "module",
   "homepage": "https://ARK2K.github.io/box-office",
+  "description": "Search movies and actors, save your favorites with Firebase",
+  "keywords": [
+    "react",
+    "vite",
+    "firebase",
+    "tailwindcss",
+    "movies",
+    "omdb-api",
+    "authentication",
+    "responsive",
+    "mobile-first",
+    "web-app"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
