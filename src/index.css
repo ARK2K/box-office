@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+/* Mobile-first base styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar for better mobile experience */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(15, 23, 42);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(59, 130, 246);
+  border-radius: 4px;
+}
+
+/* Ensure buttons are touch-friendly on mobile (min 44px) */
+button, input, a {
+  min-height: 44px;
+}

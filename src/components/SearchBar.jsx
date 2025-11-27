@@ -19,18 +19,18 @@ export default function SearchBar({ onResults, onLoading }) {
   };
 
   return (
-    <form onSubmit={handleSearch} className="mb-8">
-      <div className="flex gap-2">
+    <form onSubmit={handleSearch} className="mb-6 md:mb-8">
+      <div className="flex flex-col gap-2 sm:flex-row">
         <input
           type="text"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Search movies, shows, or actors..."
-          className="flex-1 px-4 py-2 bg-gray-800 text-white border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500 transition"
+          className="flex-1 px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500 transition text-base"
         />
         <button 
           type="submit" 
-          className="px-4 py-2 bg-blue-600 hover:bg-blue-700 rounded-lg transition duration-200 font-semibold"
+          className="w-full sm:w-auto px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition duration-200 font-semibold"
         >
           Search
         </button>
