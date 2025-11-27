@@ -83,7 +83,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 py-4 sm:py-6">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
-              <h1 className="text-2xl sm:text-3xl font-bold text-blue-400">🎬 MovieSearch</h1>
+              <h1 className="text-2xl sm:text-3xl font-bold text-blue-400">🎬 Box Office</h1>
               <p className="text-gray-400 text-xs sm:text-sm mt-1">
                 Search movies and actors, save your favorites
               </p>
@@ -196,7 +196,7 @@ export default function App() {
               OMDb API
             </a>
           </p>
-          <p className="mt-2">© 2024 MovieSearch. All rights reserved.</p>
+          <p className="mt-2">© 2025 Box Office. All rights reserved.</p>
         </div>
       </footer>
 
